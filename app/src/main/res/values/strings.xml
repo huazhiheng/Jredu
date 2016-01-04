@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Jredu</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_activity__setting">MainActivity_Setting</string>
+    <string name="title_activity_main_activity_grzl">MainActivity_grzl</string>
+    <string name="title_activity_main_activity_change">MainActivity_change</string>
+    <string name="title_activity_demo">DemoActivity</string>
+    <string name="title_activity_player">PlayerActivity</string>
+    <string name="title_activity_player_view">PlayerView</string>
+    <string name="title_activity_main_activity_article">MainActivity_article</string>
+    <string name="title_activity_main_activity_collect">MainActivity_collect</string>
+    <string name="title_activity_main_activity_chat">MainActivity_chat</string>
+    <string name="title_activity_main_activity_download">MainActivity_download</string>
+    <string name="title_activity_main_activity_pwd_change">MainActivity_pwd_change</string>
+    <string name="title_activity_main_activity_aboutjredu">MainActivity_aboutjredu</string>
+</resources>

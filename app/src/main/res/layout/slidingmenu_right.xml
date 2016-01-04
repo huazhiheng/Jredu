@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e3e3e3">
+
+
+    <RelativeLayout
+        android:id="@+id/rel_head"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#f18302">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="课程类别"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rel_head"
+        android:paddingTop="1dp">
+
+        <ListView
+            android:id="@+id/lv_right"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"></ListView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#f18302">
+
+        <RelativeLayout
+            android:id="@+id/left_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_bg">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="@null"
+                android:src="@drawable/back" />
+
+            <TextView
+                android:id="@+id/title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toEndOf="@+id/back"
+                android:layout_toRightOf="@+id/back"
+                android:text="个人中心"
+                android:textColor="#ffffff"
+                android:textSize="16dp" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/right_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:paddingRight="10dp"
+            android:background="@drawable/back_bg"
+            android:gravity="center"
+            android:text="个人设置"
+            android:textColor="#fffef3ff" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:background="#ff1e0b0f">
+
+        <com.example.heng.jredu.util.RoundImageView
+            android:id="@+id/face"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:contentDescription="@null" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="123"
+
+            android:layout_toRightOf="@+id/face"
+            android:textColor="#ffffff" />
+
+    </RelativeLayout>
+
+    <com.astuetz.PagerSlidingTabStrip
+        android:id="@+id/grxx_PagerSlidingTabStrip"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/relativeLayout"
+        android:background="#fff9f9f9"></com.astuetz.PagerSlidingTabStrip>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/grxx_viewpager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/grxx_PagerSlidingTabStrip"
+        android:background="#fff9f9f9"></android.support.v4.view.ViewPager>
+
+</RelativeLayout>

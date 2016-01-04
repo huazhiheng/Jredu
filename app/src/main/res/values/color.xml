@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tongzhilan">#f18302</color>
+    <color name="jredu">#f18302</color>
+    <color name="back_bg_press">#d27302</color>
+
+    <color name="bg_default">#e3e3e3</color>
+    <color name="bg_press">#f4f4f4</color>
+    <color name="bg_press2">#c6c6c6</color>
+
+    <color name="popwindow_bg1">#ffffff</color>
+    <color name="popwindow_bg2">#e3e3e3</color>
+
+
+    <color name="list_item_bg1">#e3e3e3</color>
+    <color name="list_item_bg2">#f4f4f4</color>
+</resources>

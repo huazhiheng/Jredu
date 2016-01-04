@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.heng.jredu.jredu.MainActivity_collect">
+
+    <RelativeLayout
+        android:id="@+id/rel_head"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#f18302">
+
+        <RelativeLayout
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:background="@drawable/back_bg"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/back_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="@null"
+                android:src="@drawable/back" />
+
+            <TextView
+                android:id="@+id/title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toEndOf="@+id/back_icon"
+                android:layout_toRightOf="@+id/back_icon"
+                android:text="离线缓存"
+                android:textColor="#ffffff"
+                android:textSize="16dp" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/lv_download"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rel_head"></ListView>
+
+</RelativeLayout>
